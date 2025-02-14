@@ -11,10 +11,6 @@ and
         maven {
             name = "GitHubPackages"
                 url = uri("https://maven.pkg.github.com/lessthan3/MaestroKit.android")
-            credentials {
-                username = "souravnoobcoder"
-                password = "***REMOVED***" // Use a GitHub token instead of a password
-            }
         }
 // in build.gradle of project
 ```

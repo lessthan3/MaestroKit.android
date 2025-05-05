@@ -16,7 +16,7 @@ dependencyResolutionManagement {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/lessthan3/MaestroKit.android")
             credentials {
-                username = "username"
+                username = "username" // <-- does not matter, as only PAT is used for authentication, but please provide a non-empty string
                 password = "github_token" // <-- use your generated Github PAT
             }
         }
@@ -24,7 +24,7 @@ dependencyResolutionManagement {
 }
 ```
 
-3. Now in your `build.gradle.kts`, refer to the dependency (please use the [latest version](https://github.com/lessthan3/MaestroKit.android/packages/2403188):
+3. Now in your `build.gradle.kts`, refer to the dependency (please use the [latest version](https://github.com/lessthan3/MaestroKit.android/packages/2403188)):
 ``` 
 dependencies {
     ...

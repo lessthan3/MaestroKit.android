@@ -16,8 +16,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "foxKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/foxKit-4.0.15.204/foxKit-4.0.15.204.zip",
-            checksum: "a15842f4d8f9de6e547a0319687063857cb531ca029587a65f817cd859d07e49"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/foxKit-4.0.15.205/foxKit-4.0.15.205.zip",
+            checksum: "e569c732bf2b3ea59ae653c5bc5a524e2c6603f486f21619af80572822cfb824"
         ),
     ]
 )

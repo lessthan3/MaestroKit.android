@@ -17,8 +17,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "foxKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/foxKit-4.0.31.309/foxKit-4.0.31.309.zip",
-            checksum: "62a296e98c6f03e2189e646a5d6644b0dc23b2a724846cde5774861cb5251763"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/foxKit-4.0.31.312/foxKit-4.0.31.312.zip",
+            checksum: "7028efbb9bde9f935a687a1318a4ec64f677a5daa4fd198bc2b420b87db2f17f"
         ),
         .binaryTarget(
             name: "paramountKit",

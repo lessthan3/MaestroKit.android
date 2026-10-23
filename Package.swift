@@ -18,8 +18,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "espnKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/espnKit-4.0.42.455/espnKit-4.0.42.455.zip",
-            checksum: "670397bf8caafa9ec79687c11add002f14604a7d765f6d8800eda4ca8cbd4ebe"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/espnKit-4.0.42.456/espnKit-4.0.42.456.zip",
+            checksum: "fc8980ccd5fdfcad82dad46a9bb7e2a6b57fb9bd0af687c1bdcf99a95f1c8b1c"
         ),
         .binaryTarget(
             name: "foxKit",

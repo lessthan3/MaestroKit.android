@@ -5,12 +5,18 @@ let package = Package(
     name: "MaestroSDK",
     platforms: [.iOS(.v14), .tvOS(.v14)],
     products: [
+        .library(name: "allKit", targets: ["allKit"]),
         .library(name: "coreKit", targets: ["coreKit"]),
         .library(name: "espnKit", targets: ["espnKit"]),
         .library(name: "foxKit", targets: ["foxKit"]),
         .library(name: "paramountKit", targets: ["paramountKit"]),
     ],
     targets: [
+        .binaryTarget(
+            name: "allKit",
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/allKit-4.0.42.472/allKit-4.0.42.472.zip",
+            checksum: "4f0ba84c06ebf4566c162d9648ed42c79ff089f03e69e57bc05aab5ed8067a5a"
+        ),
         .binaryTarget(
             name: "coreKit",
             url: "https://github.com/lessthan3/MaestroKit.android/releases/download/coreKit-4.0.42.473/coreKit-4.0.42.473.zip",

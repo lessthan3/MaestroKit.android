@@ -19,8 +19,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "coreKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/coreKit-4.0.42.481/coreKit-4.0.42.481.zip",
-            checksum: "52d6c27f364d0cfe32ceb88f24ea56155fa87cf9b61a15ae64f4c8084423f146"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/coreKit-4.0.42.483/coreKit-4.0.42.483.zip",
+            checksum: "a824821b0430a9f741f86129a04cbc191efa919f268e35a64366eabb121a2403"
         ),
         .binaryTarget(
             name: "espnKit",

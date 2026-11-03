@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "allKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/allKit-4.0.42.507/allKit-4.0.42.507.zip",
-            checksum: "ce9057e8884df1d3c7fff3c051788c2d5fd7d98427a83caec2c937434188ae31"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/allKit-4.0.42.508/allKit-4.0.42.508.zip",
+            checksum: "3af1eb8b920daeda1e80cbaabfeb4fd8c41c2f4abb4fe91df58a118ef0192a36"
         ),
         .binaryTarget(
             name: "coreKit",

@@ -34,8 +34,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "paramountKit",
-            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/paramountKit-4.0.42.532/paramountKit-4.0.42.532.zip",
-            checksum: "6579b559ce723b5ebbb14bb3f2172cdba07df817f65bd81b955baddf18c11c84"
+            url: "https://github.com/lessthan3/MaestroKit.android/releases/download/paramountKit-4.0.42.534/paramountKit-4.0.42.534.zip",
+            checksum: "ad1d897f72cfd3ec7903f93d63de33ccdd28eb9d791a4222c600078564672abc"
         ),
     ]
 )
